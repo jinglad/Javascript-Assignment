@@ -10,9 +10,9 @@ function feetToMile(feets){
 // problem 2 - woodCalculator
 
 function woodCalculator(chairs,tables,beds){
-        woodForChairs = chairs * 1;
-        woodForTables = tables * 3;
-        woodForBeds = beds * 5;
+        let woodForChairs = chairs * 1;
+        let woodForTables = tables * 3;
+        let woodForBeds = beds * 5;
         let totalWood = woodForChairs + woodForTables + woodForBeds;
         return totalWood;
 }
